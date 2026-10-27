@@ -9,4 +9,8 @@ const config: NextConfig = {
     {key:'Permissions-Policy',value:'camera=(), microphone=(), geolocation=()'}
   ]}]; }
 };
-export default config;
+const nextConfig = {
+  output: 'standalone',
+};
+
+export default nextConfig;
