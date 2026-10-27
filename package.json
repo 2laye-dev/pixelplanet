@@ -1,0 +1,7 @@
+{
+  "name": "pixelplanet", "version": "1.0.0", "private": true,
+  "scripts": {"dev":"next dev --hostname 127.0.0.1", "build":"next build", "start":"node app.js", "typecheck":"tsc --noEmit", "test":"node --import tsx --test tests/*.test.ts", "admin:password":"node scripts/password.cjs", "package":"node scripts/package.cjs"},
+  "dependencies": {"next":"latest", "react":"latest", "react-dom":"latest", "three":"latest", "proper-lockfile":"^4.1.2", "zod":"^4.0.0", "lucide-react":"latest"},
+  "devDependencies": {"typescript":"^5.9.0", "@types/node":"^24.0.0", "@types/react":"latest", "@types/react-dom":"latest", "@types/three":"latest", "@types/proper-lockfile":"^4.1.4", "tsx":"latest", "archiver":"latest"},
+  "engines":{"node":">=22.0.0"}
+}
